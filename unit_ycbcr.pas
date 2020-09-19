@@ -266,7 +266,8 @@ begin
       // collect statistic
       value := outline_values[1];
       amount := outline_count[1];
-
+      value_count := 1;
+      
       // find minimum, apply average on same amounts
       for i := 2 to 16 do
       begin
